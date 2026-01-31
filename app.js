@@ -15,7 +15,7 @@ function sendBooking() {
   }
 
   let message = `Booking Request:%0AName: ${name}%0APhone: ${phone}%0ACar: ${selectedCar}`;
-  let whatsappNumber = "971XXXXXXXXX"; // your WhatsApp number
+  let whatsappNumber = "971556882448"; // your WhatsApp number
 
   window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
 }
